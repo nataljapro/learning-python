@@ -97,6 +97,12 @@ price = 25
 
 #         if statements
 
+'''
+jak dam pare ifów to każdy będzie sprawdzony
+elif jest sprawdzany tylko wtedy kiedy if nie zostanie spełniony
+else jest sprawdzony tylko kiedy if/elif nie zostaną spełnione
+'''
+
 # cat = int(input('what size is your cat? '))
 
 # if cat > 30:
