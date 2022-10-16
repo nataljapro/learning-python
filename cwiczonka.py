@@ -60,4 +60,52 @@
 # if guess_count > guess_limit:
 #     print('no i chuj nie udalo sie')
 
-#########################################################3
+#########################################################
+# car game :3
+# command = input('type help to see options ')
+# while True:
+#     if command == 'help':
+#         command = input('''start - to start the car
+#     stop - to stop the car
+#     quit - to quit the game ''')
+#     is_started = False
+#     is_stopped = True
+#     if command == 'start':
+#         is_started = True
+#         command = input('car started... ')
+#     if is_started and command == 'start':
+#         command = input('the car already started ')
+#     if command == 'stop' and not is_stopped:
+#         is_stopped = True
+#         command = input('car stopped... ')
+#     elif is_stopped and command == 'stop':
+#         command = input('the car already stopped ')
+#     elif command == 'quit':
+#         print('you quit the game bye :3')
+#         break
+#     else:
+#         command = input('i dont understand maybe try again? ')
+
+##########################################################################
+# for item in range(0, 61):
+#     if item % 5 == 0:
+#         print(item)
+
+##########################################################################
+# prices = [21, 37, 69]
+# total = 0
+# for price in prices:
+#     total += price
+# print('total: ' + str(total))
+
+#########################################################################
+# for x in range(6):
+#     for y in range(11):
+#         print(f'{x}, {y}')
+
+##########################################################################
+# numbers = [5, 2, 5, 2, 2]
+# for number in numbers:
+#     print(number * 'x')
+
+########################################################################
