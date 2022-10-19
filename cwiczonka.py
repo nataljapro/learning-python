@@ -109,3 +109,70 @@
 #     print(number * 'x')
 
 ########################################################################
+# import random
+# number = random.randint(0, 50)
+# user_guess = int(input('zgadnij liczbe wylosowanom '))
+# while True:
+#     if user_guess > number:
+#         user_guess = int(input('sekretna liczba jest mniejsza niż ' + str(user_guess) + ', dawaj jeszcze raz '))
+#     elif user_guess < number:
+#         user_guess = int(input('sekretna liczba jest większa niż ' + str(user_guess) + ', dawaj jeszcze raz '))
+#     else:
+#         print('zajebicho')
+#         break
+
+########################################################################
+# name = input('whats your name ')
+# birth_date = input('when were you born in format DDMMYYYY pliz answer ')
+# birth_year = birth_date[4:8]
+# one_century_after_year = int(birth_year) + 100
+#
+# print(name + ', you will be 100 years old in the year ' + str(one_century_after_year) + '!')
+
+########################################################################
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# for item in a:
+#     if item < 10:
+#         print(item)
+
+########################################################################
+'''create a program that asks the user for a number and then prints out a
+list of all the divisors of that number. (If you don’t know what a
+divisor is, it is a number that divides evenly into another number.
+    For example, 13 is a divisor of 26 because 26 / 13 has no remainder.'''
+
+# number = int(input('gimme a number '))
+# for i in range(1, number):
+#     if number % i == 0:
+#         print(i)
+
+########################################################################
+'''write a program that returns a list that contains only the elements 
+that are common between the lists (without duplicates)'''
+
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+# for item in a:
+#     if item in b:
+#         print(item)
+
+########################################################################
+'''Ask the user for a string and print out whether this string is a 
+palindrome or not. (A palindrome is a string that reads the same forwards 
+and backwards.)'''
+
+'''             SLICING GUIDE
+a[start:stop]  # items start through stop-1
+a[start:]      # items start through the rest of the array
+a[:stop]       # items from the beginning through stop-1
+a[:]           # a copy of the whole array
+a[::-1]        # spells item backwards : D
+'''
+
+# string = input('type something ')
+# if string == string[::-1]:
+#     print('its a palindrome - ' + string + ' - see? :)')
+# else:
+#     print('its not a palindrome : D')
+
+########################################################################
