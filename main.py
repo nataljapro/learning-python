@@ -1,1 +1,1 @@
-import lists_tuples, dictionaries, sets, basics, cwiczonka, while_and_for_loops
+import lists_tuples, dictionaries, sets, basics, cwiczonka, while_and_for_loops, pipi, rock_paper_scissors_game
